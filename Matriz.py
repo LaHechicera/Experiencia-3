@@ -47,8 +47,39 @@ matriz_2d[1][2] = 60
 print(matriz_2d)
 print(matriz_2d[1][2])
 
-#Recorrer una matriz bidimensional con ciclo for: 1er for recorre filas y el 2do for recorre columnas: for fila in matriz_2d....:
+#Recorrer una matriz bidimensional con ciclo for: 1er for recorre filas y el 2do for recorre columnas: for fila in matriz_2d y luego abajo for columna in fila:
 
 for fila in matriz_2d:
     for columna in fila:
         print(columna)
+
+
+#Mtriz multidimensionales: es una matriz que extiende su contenido a multiples dimensiones.
+
+matriz_3d = [
+    [#0
+        [1,2,3,4,5],#0
+        [6,7,8,9,10]#1
+        #0,1,2,3,4
+    ],
+    [#1
+        [11,12,13,14],#0
+        [15,16,17,18]#1
+        #0,1,2,3
+    ]
+]
+#Acceder a un elemento especifico de matriz_3d Ej: [][][]
+resul_m3d = matriz_3d[1][1][2]
+print(resul_m3d)
+
+#Modificar número 13 por número 133
+matriz_3d [1][0][2] = 133
+print(matriz_3d)
+print(matriz_3d[1][0][2])
+
+#Recorrer matriz con un ciclo for x3:
+for f in matriz_3d:
+    for c in f:
+        for l in f:
+            print(l)
+
