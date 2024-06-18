@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Mauricio",
+        "Edad": 30,
+        "Notas": [
+            40,
+            50,
+            65
+        ]
+    },
+    {
+        "nombre": "Endy",
+        "Edad": 27,
+        "Notas": [
+            46,
+            60,
+            65
+        ]
+    },
+    {
+        "nombre": "Eduard",
+        "Edad": 33,
+        "Notas": [
+            70,
+            50,
+            42
+        ]
+    },
+    {
+        "nombre": "Campo",
+        "Edad": 27,
+        "Notas": [
+            50,
+            61,
+            57
+        ]
+    }
+]
